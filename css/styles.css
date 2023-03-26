@@ -11493,6 +11493,7 @@ body {
   font-weight: 700;
   padding: 0.9rem 0;
 }
+
 #mainNav .navbar-nav .nav-item:hover {
   color: fade(#fff, 80%);
   outline: none;
@@ -11573,6 +11574,11 @@ body {
   margin-top: 10%;
   width: 8%;
   transform: rotate(90deg);
+}
+.sizebrk{
+  width: 15%;
+  padding: 0 50%;
+  style="border-bottom: solid 6px #64a19d ;
 }
 
 .masthead {
