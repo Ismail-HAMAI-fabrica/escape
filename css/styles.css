@@ -585,9 +585,17 @@ progress {
 }
 
 .img-fluid {
-width: 100%;
-
+  width: 100%;
+  transition: transform 0.3s ease-out;
+  overflow: hidden;
 }
+
+.img-fluid:hover {
+  transform: scale(1.05);
+  transform-origin: center;
+  overflow: hidden;
+}
+
 .skate{
   width: 126.1%;
   margin-top: -14%;
@@ -602,6 +610,10 @@ width: 100%;
   border-radius: 0.25rem;
   max-width: 100%;
   height: auto;
+}
+button{
+  margin-top: 4%;
+  transition: 2s;
 }
 
 .figure {
@@ -11469,10 +11481,12 @@ textarea.form-control-lg {
 }
 html {
   scroll-padding-top: calc(4.5rem - 1px);
+  scroll-behavior: smooth;
 }
 
 body {
   letter-spacing: 0.0625em;
+  scroll-behavior: smooth;
 }
 
 #mainNav {
@@ -11495,7 +11509,7 @@ body {
 }
 
 #mainNav .navbar-nav .nav-item:hover {
-  color: fade(#fff, 80%);
+  color: fade(#000, 80%);
   outline: none;
   background-color: transparent;
 }
@@ -11523,16 +11537,16 @@ body {
     color: rgba(255, 255, 255, 1);
   }
   #mainNav .nav-link:active {
-    color: #fff;
+    color: #191c1f;
   }
   #mainNav.navbar-shrink {
-    background-color: #fff;
+    background-color: #191c1f;
   }
   #mainNav.navbar-shrink .navbar-brand {
-    color: #000;
+    color: #191c1f;
   }
   #mainNav.navbar-shrink .nav-link {
-    color: #000;
+    color: #fff;
     padding: 1.5rem 1.5rem 1.25rem;
     border-bottom: 0.25rem solid transparent;
   }
@@ -11558,6 +11572,8 @@ body {
   letter-spacing: 0.15rem;
   border: 0;
 }
+
+
 
 #no-style {
   border: none;
