@@ -11581,13 +11581,14 @@ body {
   /* Any other styles you want to remove */
 }
 .logo{
-  width: 10%;
+  width: 9%;
+  
 }
 .gifcentr{
   width: 35%;
 }
 .arrowgif{
-  margin-top: 10%;
+  margin-top: -7%;
   width: 8%;
   transform: rotate(90deg);
 }
@@ -11602,7 +11603,7 @@ body {
   width: 100%;
   height: auto;
   min-height: 35rem;
-  padding: 15rem 0;
+  padding: 6rem 0;
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.3) 75%, #000 100%), url("../female-hiker-walking-wooden-bridge.jpg");
   background-position: center;
   background-repeat: no-repeat;
