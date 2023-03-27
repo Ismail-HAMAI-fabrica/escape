@@ -45,7 +45,8 @@
                             <img class="gifcentr" src="./img/imgbin.gif" alt="">
                             <div class="centered">Escape</div>
                         </div>
-                        <h2 class="text-white-50 mx-auto mt-2 mb-5">Discover new experiences and embark on exciting adventures</br><a href="blog.html"><button type="button" class="btn btn-outline-white mb-2 border border-white">Explore our activities   &nbsp;&nbsp;<i class="fa-solid fa-arrow-right  fa-shake"></i></button></a></h2>
+                        <h2 class="text-white-50 mx-auto mt-2 mb-5">Discover new experiences and embark on exciting adventures</br><a href="blog.html"><button type="button" class="btn btn-outline-white mb-2 border border-white">Explore our activities   &nbsp;&nbsp;<i class="fa-solid fa-arrow-right  fa-shake"></i></button></br><button type="button" class="btn btn-outline-white mb-2 border border-white">Sign Up</button></a></h2>
+                        
                         
                         <img id="no-style" class="arrowgif" src="./img/stocktransformed.gif" alt="">
                     </div>
@@ -205,5 +206,30 @@
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
         <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+            
+              $("a").on('click', function(event) {
+            
+              
+                if (this.hash !== "") {
+                  
+                  event.preventDefault();
+            
+             
+                  var hash = this.hash;
+            
+                  $('html, body').animate({
+                    scrollTop: $(hash).offset().top
+                  }, 800, function(){
+               
+                
+                    window.location.hash = hash;
+                  });
+                } 
+              });
+            });
+            </script>
     </body>
 </html>

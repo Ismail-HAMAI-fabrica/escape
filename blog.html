@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-spy="scroll">
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
@@ -17,12 +17,18 @@
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+		
+		<link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/4.5.6/css/ionicons.min.css">
+		<link rel="stylesheet" href="css/style.css">
     </head>
-    <body id="page-top">
+    <body class="bg-dark" onload="removeBlur()" id="page-top">
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
             <div class="container px-4 px-lg-5">
-                <img class="navbar-brand logo" src="./img/LOgo.png" alt="">
+                <a class="no-style" style="width: 150%; left: 0;" href="index.html"><img class="navbar-brand logo" src="./img/LOgo.png" alt=""></a>
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     Menu
                     <i class="fas fa-bars"></i>
@@ -36,23 +42,178 @@
                 </div>
             </div>
         </nav>
-
-
-
+        <div class="home-slider owl-carousel js-fullheight">
+            <div class="slider-item js-fullheight" style="background-image:url(img/derek.jpg);">
+                <div class="overlay"></div>
+              <div class="container">
+                <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-center">
+                    <div class="col-md-12 ftco-animate">
+                        <div class="text w-100 text-center">
+                            <h2>Best Place to Travel</h2>
+                          <h1 class="mb-3">SAHARA</h1>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+      
+            <div class="slider-item js-fullheight" style="background-image:url(img/denis.jpg);">
+                <div class="overlay"></div>
+              <div class="container">
+                <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-center">
+                    <div class="col-md-12 ftco-animate">
+                        <div class="text w-100 text-center">
+                            <h2>Best Place to Travel</h2>
+                          <h1 class="mb-3">MOUNTAIN</h1>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+      
+            <div class="slider-item js-fullheight" style="background-image:url(img/eulauretta.jpg);">
+                <div class="overlay"></div>
+              <div class="container">
+                <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-center">
+                    <div class="col-md-12 ftco-animate">
+                        <div class="text w-100 text-center">
+                            <h2>Best Place to Travel</h2>
+                          <h1 class="mb-3">FOREST</h1>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+    <div class="container">
+		<h1 class="text-center my-5">My Gallery</h1>
+		<div class="row justify-content-center">
+			<div class="col-md-4 col-sm-6 gallery-item">
+				<a href="#">
+					<img src="img/gallry/saha 3.jpg" alt="Gallery Image">
+					<div class="overlay">
+						<p>Image Title 1</p>
+                        <p style="font-size: smaller;color:rgb(170, 170, 170);">Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
+					</div>
+				</a>
+			</div>
+			<div class="col-md-4 col-sm-6 gallery-item">
+				<a href="#">
+					<img src="img/gallry/saha 1.jpg" alt="Gallery Image">
+					<div class="overlay">
+						<p>Image Title 2</p>
+                        <p style="font-size: smaller;color:rgb(170, 170, 170);">Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
+					</div>
+				</a>
+			</div>
+			<div class="col-md-4 col-sm-6 gallery-item">
+				<a href="#">
+					<img src="img/gallry/saha 4.jpg" alt="Gallery Image">
+					<div class="overlay">
+						<p>Image Title 3</p>
+                        <p style="font-size: smaller;color:rgb(170, 170, 170);">Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
+					</div>
+				</a>
+			</div>
+			<div class="col-md-4 col-sm-6 gallery-item">
+				<a href="#">
+					<img src="img/gallry/snow 3.jpg" alt="Gallery Image">
+					<div class="overlay">
+						<p>Image Title 4</p>
+                        <p style="font-size: smaller;color:rgb(170, 170, 170);">Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
+					</div>
+				</a>
+			</div>
+            <div class="col-md-4 col-sm-6 gallery-item">
+				<a href="#">
+					<img src="img/gallry/snow 1.jpg" alt="Gallery Image">
+					<div class="overlay">
+						<p>Image Title 1</p>
+                        <p style="font-size: smaller;color:rgb(170, 170, 170);">Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
+					</div>
+				</a>
+			</div>
+			<div class="col-md-4 col-sm-6 gallery-item">
+				<a href="#">
+					<img src="img/gallry/img 4.jpg" alt="Gallery Image">
+					<div class="overlay">
+						<p>Image Title 2</p>
+                        <p style="font-size: smaller;color:rgb(170, 170, 170);">Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
+					</div>
+				</a>
+			</div>
+			<div class="col-md-4 col-sm-6 gallery-item">
+				<a href="#">
+					<img src="img/gallry/saha 5.jpg" alt="Gallery Image">
+					<div class="overlay">
+						<p>Image Title 3</p>
+                        <p style="font-size: smaller;color:rgb(170, 170, 170);">Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
+					</div>
+				</a>
+			</div>
+			<div class="col-md-4 col-sm-6 gallery-item">
+				<a href="#">
+					<img src="img/gallry/img 5.jpg" alt="Gallery Image">
+					<div class="overlay">
+						<p>Image Title 4</p>
+                        <p style="font-size: smaller;color:rgb(170, 170, 170);">Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
+					</div>
+				</a>
+			</div>
+            <div class="col-md-4 col-sm-6 gallery-item">
+				<a href="#">
+					<img src="img/gallry/img 1.jpg" alt="Gallery Image">
+					<div class="overlay">
+						<p>Image Title 4</p>
+                        <p style="font-size: smaller;color:rgb(170, 170, 170);">Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
+					</div>
+				</a>
+			</div>
+<!-- Carousel wrapper -->
+                <div class="social d-flex justify-content-center">
+                    <a class="mx-2" href="#!"><i class="fab fa-twitter"></i></a>
+                    <a class="mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
+                    <a class="mx-2" href="#!"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </section>
+        <!-- Footer-->
+        <footer class="footer bg-black small text-center text-white-50"><div class="container px-4 px-lg-5">Copyright &copy; Escape 2023 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</div></footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+ 
+              $("a").on('click', function(event) {
+            
+    
+                if (this.hash !== "") {
+         
+                  event.preventDefault();
+            
+           
+                  var hash = this.hash;
+            
         
-        <div class="social d-flex justify-content-center">
-            <a class="mx-2" href="#!"><i class="fab fa-twitter"></i></a>
-            <a class="mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
-            <a class="mx-2" href="#!"><i class="fab fa-github"></i></a>
-        </div>
-    </div>
-</section>
-<!-- Footer-->
-<footer class="footer bg-black small text-center text-white-50"><div class="container px-4 px-lg-5">Copyright &copy; Escape 2023 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</div></footer>
-<!-- Bootstrap core JS-->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-<!-- Core theme JS-->
-<script src="js/scripts.js"></script>
-<script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
-</body>
+                  $('html, body').animate({
+                    scrollTop: $(hash).offset().top
+                  }, 800, function(){
+               
+                  
+                    window.location.hash = hash;
+                  });
+                } 
+              });
+            });
+            </script>
+              <script src="js/jquery.min.js"></script>
+              <script src="js/popper.js"></script>
+              <script src="js/bootstrap.min.js"></script>
+              <script src="js/owl.carousel.min.js"></script>
+              <script src="js/main.js"></script>
+    </body>
 </html>
